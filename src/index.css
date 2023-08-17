@@ -1,0 +1,140 @@
+body {
+    background-color: #FFF;
+    background-image: url(https://media.wired.com/photos/5d163e197c01a40008fc096f/16:9/w_5615,h_3158,c_limit/01_Amir%20Zaki_Skateparks.jpg);
+    background-size:cover;
+    
+  }
+  h1, h2, p1, p, ul, li {
+    font-family: sans-serif;
+  }
+  ul.header li {
+    display: inline;
+    list-style-type: none;
+    margin: 0;
+  }
+  ul.header {
+    background-color: #111;
+    padding: 0;
+  }
+  ul.header li a {
+    color: #FFF;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 20px;
+    display: inline-block;
+  }
+  .content {
+    padding: 20px;
+    color: #0e0101;
+    flex-wrap: wrap;
+    font-size: larger;
+
+  }
+  .content h2 {
+    padding: 0;
+    margin: 0;
+  }
+  .content li {
+    margin-bottom: 10px;
+  }
+
+  .active {
+    background-color: #0099FF;
+  }
+
+  h1 {
+    color: #0e0101;
+    text-align: center;
+  }
+
+  .shop {
+    text-align: center;
+
+    
+  }
+  .home {
+    
+    flex-wrap: wrap;
+    text-align: center;
+    margin-inline: 500px;
+
+  }
+  .shop img {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: auto;
+    width: 20%;
+  }
+
+  .shop p {
+    font-size: larger;
+    text-align: left;
+    margin-right: 1500px;
+    flex-wrap: wrap;
+    
+  }
+  
+input {
+  float: left;
+  clear: left;
+  margin: 10px;
+}
+
+form {
+  padding: 10px;
+  width: 66.6667%;
+  float: left;
+}
+
+fieldset {
+   margin-bottom: 10px;
+   position: relative;
+   padding: 2.5em 1em 0.5em 1em;
+   
+}
+
+#orderinfo label {
+  display: block;
+  float: left;
+  clear: left;
+  margin-top: 5px;
+}
+
+#typeofskateboard {
+  display: block;
+  float: left;
+  clear: left;
+  margin-top: 5px;
+}
+#instructions {
+  display: block;
+  float: left;
+  clear: left;
+  margin-top: 5px;
+}
+#instrlabel {
+  display: block;
+  margin: 1em 0 0.5em 0;
+  float: left;
+  clear: left;
+  margin-top: 5px;
+  
+}
+
+#previewbutton {
+  background: inherit;
+  border: none;
+  padding: 0.5em 0 0 0;
+  text-align: center;
+  display: block;
+  margin: 1em 0 0.5em 0;
+  float: left;
+  clear: left;
+  margin-top: 5px;
+}
+
+#previewBtn {
+  font-size: 1.25em;
+}
