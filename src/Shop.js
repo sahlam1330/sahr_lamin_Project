@@ -22,7 +22,7 @@ class Shop extends Component {
                         <tr>
                             <td> 
                             <input type="image" src="https://www.ridingboards.com/wp-content/uploads/2021/09/globe-blazer-1.jpg.webp" 
-                             width="100" height="100"/></td>
+                             alt="Submit" width="100" height="100"/></td>
                             <td><label className="cruiserInfo" for="cruiserInfo" >
                              <h4>1998 SkyBender Cruiser board. </h4></label>
                             </td>
