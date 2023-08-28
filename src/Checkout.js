@@ -4,10 +4,11 @@ class Checkout extends Component {
     render() {
         return(
             <div>
-            <h1>Welcome to our checkout page</h1>
+            <h2>Checkout</h2>
+            <h3>Welcome to our checkout page</h3>
     
             <article>
-            <h2>Enter your order information</h2>
+            <h3>Enter your order information</h3>
             <fieldset id="orderinfo">
             <legend>Order</legend>
             <label for="nameinput">Name</label>
@@ -24,13 +25,13 @@ class Checkout extends Component {
             <fieldset id="typeofskateboard">
                 <legend>Type of board</legend>
                 <select id="type" name="type" required="required">
-                    <option value="Longboard">Longboard</option>
-                    <option value="Cruiserboard">Cruiserboard</option>
+                    <option value="Longboard">1995 Longback Long board</option>
+                    <option value="Cruiserboard">1998 SkyBender Cruiser board</option>
                     <option value="Customize">Customize</option>
                 </select>
             </fieldset>
             <fieldset id="instructions">
-            <label for="instructions" id="instrlabel">Customize Board</label>
+            <legend>instructions</legend>
             <textarea id="instructions" name="instructions" rows="3" cols="50"
                 placeholder="customize your skateboard"></textarea>
             </fieldset>
